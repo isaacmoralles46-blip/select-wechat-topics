@@ -1,0 +1,13 @@
+interface:
+  display_name: 拼多多选品分析师
+  short_description: 调研拼多多食品零食爆款、货源、利润、竞争和上架合规风险
+  default_prompt: 使用 $pinduoduo-product-analyst 调研10元以内辣味零食近7天TOP10。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
